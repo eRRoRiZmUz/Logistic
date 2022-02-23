@@ -1,24 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
 
 const Header = (item:any) => {
+ 
     const MenuList =[{
         title:"Home",
-        href:"/"
+        href:"#"
     },{
         title:"About",
-        href:"/"
+        href:"#1"
     },
     {
         title:"Service",
-        href:"/"
+        href:"#2"
+    },
+    {
+        title:"Project",
+        href:"#3"
     },
     {
         title:"Team",
-        href:"/"
+        href:"#4"
     },
     {
-        title:"Contact",
-        href:"/"
+        title:"blog",
+        href:"#5"
     },]
     return (
         <div
@@ -35,8 +40,8 @@ const Header = (item:any) => {
        </div> 
        <div className="flex space-x-5 font-semibold md:text-lg lg:text-xl items-center"> 
        {MenuList.map((items)=>(
-           <div className="">
-          <a href={items.href} className={`${item.scroll ? "text-black" : "text-white"}`}>
+           <div  className="">
+          <a href={items.href}  className={`${item.scroll ? "text-black" : "text-white"}`}>
           {items.title}
           </a>
            </div>

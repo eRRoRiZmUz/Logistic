@@ -17,29 +17,36 @@ const Image = [{cover:"/img/image 1.jpg"},
 {cover:"/img/image 2.jpg"},
 {cover:"/img/image 3.jpg"},]
 const Home: NextPage = () => {
+  
   return (
     <div>
       <Layout>
-      <div >
+      <div id='0'>
         <CustomSlider items={Image} />
       </div>
-      <Service/>
-      <div className='container mx-auto px-10 md:px-40 '>
+      <div id='1' ><Service/></div>
+      <div  className='container mx-auto px-10 md:px-40 '>
         <AboutUs />
       </div>
-      <SupportTeam />
-      <OurServices />
-      <div className='container mx-auto px-10 md:px-40 '>
+     <div > <SupportTeam /></div>
+      <div id='2'><OurServices /> </div>
+      <div  className='container mx-auto px-10 md:px-40 '>
         <ClientReview />
-      </div>
+      </div>  
       <WhatWeDo/>
       <OurSkills />
       <div className='container mx-auto px-10 md:px-40 '>
-        <OurProject />  
+        <div id='3'>
+        <OurProject />
+        </div>  
         <Match />
+        <div id='4'>
         <OurTeam />
+        </div>
       </div>
+      <div id='5'>
       <RecentNews />
+      </div>
       <div className='container mx-auto px-10 md:px-40 '>
       <FAQ />
       </div>
