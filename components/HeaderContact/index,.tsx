@@ -10,7 +10,7 @@ const HeaderContact = () => {
     {icon:<BiWorld /> , href:""},
     {icon:  <FaYoutube /> , href:""}]
     return(<div className="bg-red-500 py-4">
-        <div className="container mx-auto px-10 md:px-40  text-white font-semibold">
+        <div className="container mx-auto px-5 md:px-40  text-white font-semibold">
             <div className="flex justify-between">
                 <div className="flex space-x-5">
                     <div className="flex space-x-2 items-center text-md lg:text-lg">
@@ -22,14 +22,14 @@ const HeaderContact = () => {
                         <a href="mailto:someone@yoursite.com?subject=Mail from Our Site" className="text-white">example@gmail.com</a>  
                     </div>
                 </div>
-                <div className="flex space-x-2 items-center text-md lg:text-lg">
+                <div className="flex space-x-1 md:space-x-2 items-center text-md lg:text-lg">
                     {icon.map((item)=>(
                         <a href={item.href} className="text-white text-md md:text-lg lg:text-xl">
                             {item.icon}
                         </a>
                     ))}
                      <div
-                  className="lang text-xl inline-flex space-x-4 text-gray-400 "
+                  className="lang text-xl inline-flex space-x-4 text-gray-400 hidden md:block"
                   style={{}}
                   key="t-8"
                 >

@@ -44,7 +44,7 @@ const CustomSlider = ({ items }: IProps) => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    speed: 500,
+    speed: 300,
     arrows: false,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
