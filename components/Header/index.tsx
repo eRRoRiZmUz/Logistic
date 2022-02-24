@@ -55,9 +55,9 @@ const Header = (item:any) => {
    </div>
    </div>
    </div>
-   <>
+   {/* <>
    <div
-     className="top-5 fixed  z-50  right-5 font-cool cursor-pointer  md:hidden"
+     className="top-10 fixed  z-50  right-5 font-cool cursor-pointer  md:hidden"
      onClick={handleOpen}
    >
      <div className="block w-11 absolute left-1/2 top-1/2  transform  -translate-x-1/2 -translate-y-1/2 ">
@@ -178,7 +178,7 @@ const Header = (item:any) => {
             </div>
           </div>
         </div>
-      </>
+      </> */}
     </div>
     )
   }
