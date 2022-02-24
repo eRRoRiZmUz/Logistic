@@ -11,7 +11,9 @@ const Match = () =>{
     return(<div className="py-10 md:py-20">
         <div className="space-y-10 md:space-y-0 md:grid md:grid-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
             {data.map((item)=>(
-                <div className="relative font-semibold text-white space-y-2 bg-red-500 text-center py-5" data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"}>
+                <div className="relative font-semibold text-white space-y-2 bg-red-500 text-center py-5" data-sal="slide-down"
+                data-delay="1000"
+                data-sal-duration={1000}>
                     <div className="text-md md:text-lg lg:text-xl pt-5">{item.title}</div>
                     <div className="text-3xl md:text-4xl lg:text-5xl">{item.number}</div>
                     <div className="justify-center absolute left-1/2 transform -translate-x-1/2 -top-10 p-0.5 bg-white drop-shadow-xl rounded-full">

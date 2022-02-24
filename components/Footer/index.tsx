@@ -18,7 +18,9 @@ const Footer = () => {
     {img:<img src="/img/6.jpg" />}]
 
   return (
-    <div  className="bg-[#282828] " data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"}>
+    <div  className="bg-[#282828] " data-sal="slide-down"
+    data-delay="1000"
+    data-sal-duration={1000}>
         <div className="container mx-auto px-10 md:px-40  py-10 md:py-20">
             <div className="md:flex md:space-x-5 space-y-10 md:space-y-0">
                 <div className="md:w-1/3 space-y-5 text-white">

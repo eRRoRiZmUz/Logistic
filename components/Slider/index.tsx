@@ -44,8 +44,8 @@ const CustomSlider = ({ items }: IProps) => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    speed: 300,
-    arrows: false,
+    speed: 200,
+    arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (_:any, index:any) => {
@@ -94,7 +94,9 @@ const CustomSlider = ({ items }: IProps) => {
       </Slider>
     <div className="absolute bottom-40 md:bottom-20 md:w-2/3">
       <div className="uppercase px-10 md:px-40  font-bold text-white text-3xl lg:text-4xl"
-      data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"ease"}
+      data-sal="slide-down"
+      data-delay="1000"
+      data-sal-duration={1000}
           >
           YOU TRUSTED LOGISTIC <a className="text-red-500">PARTNER</a> IN WORLDWIDE SMART WAY</div>
     </div>

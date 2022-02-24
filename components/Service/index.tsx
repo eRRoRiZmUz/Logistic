@@ -13,7 +13,9 @@ return(<div className="bg-[#F2F2F2]">
     <div className="py-10 md:py-20 container mx-auto px-10 md:px-40">
     <div className="space-y-5 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-5">
         {service.map((item)=>(
-            <div  data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"} className="bg-white p-8 space-y-5 text-left">
+            <div  data-sal="slide-down"
+            data-delay="1000"
+            data-sal-duration={1000} className="bg-white p-8 space-y-5 text-left">
                 <div className="text-red-500 text-2xl md:text-4xl">{item.icon}</div>
                 <div className=" font-semibold text-xl md:text-2xl">{item.title}</div>
                 <div className=" text-lg md:text-xl">{item.text}</div>

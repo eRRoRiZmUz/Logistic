@@ -62,7 +62,9 @@ const Home: NextPage = () => {
       <div className='container mx-auto px-10 md:px-40 '>
       <FAQ />
       </div>
-      <div data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"fade-in"} className={`${scroll ? "fixed" : "hidden"} right-10 bottom-10 rounded-full bg-red-500 p-2`}>
+      <div data-sal="slide-down"
+                 data-delay="1000"
+                 data-sal-duration={1000} className={`${scroll ? "fixed" : "hidden"} right-10 bottom-10 rounded-full bg-red-500 p-2`}>
           <a href='#0' className='text-4xl text-white'>
             <BiUpArrowAlt/>
           </a>

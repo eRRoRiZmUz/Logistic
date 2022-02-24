@@ -29,7 +29,9 @@ const Header = (item:any) => {
         href:"#5"
     },]
     return (
-        <div data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"}>
+        <div data-sal="slide-down"
+        data-delay="1000"
+        data-sal-duration={1000}>
         <div
         className={`${
           item.scroll ? "fixed bg-white  " : " absolute "

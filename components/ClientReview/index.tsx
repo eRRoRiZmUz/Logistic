@@ -41,7 +41,9 @@ const ClientReview = () =>{
     }]
     return(
     <div className=" py-10 md:py-20 space-y-10">
-        <div data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"} className="space-y-2.5 text-center px-10 md:px-40 lg:px-60">
+        <div data-sal="slide-down"
+                 data-delay="1000"
+                 data-sal-duration={1000}   className="space-y-2.5 text-center px-10 md:px-40 lg:px-60">
             <div className="space-y-1 ">
                 <div className=" font-semibold text-lg md:text-xl lg:text-2xl ">Our Services</div>
                 <div className="flex justify-center space-x-1">
@@ -55,7 +57,9 @@ const ClientReview = () =>{
         <div className="relative p-5">
         <Slider  {...settings}>
             {data.map((item)=>(
-                <div className="p-5 bg-white" data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"}>
+                <div className="p-5 bg-white" data-sal="slide-down"
+                 data-delay="1000"
+                 data-sal-duration={1000}  >
                     <div className="space-y-2 md:space-y-5 bg-red-50  px-5 md:px-14 py-3 my-8 md:py-7">
                     <div className="absolute z-50 -top-1 drop-shadow-xl bg-white p-1 rounded-full">{item.img}</div>
                     <div className="pt-10 md:pt-5 text-gray-600">{item.text}</div>
