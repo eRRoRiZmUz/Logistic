@@ -9,7 +9,7 @@ const HeaderContact = () => {
     {icon:<AiOutlineTwitter /> , href:""},
     {icon:<BiWorld /> , href:""},
     {icon:  <FaYoutube /> , href:""}]
-    return(<div className="bg-red-500 py-4">
+    return(<div className="bg-red-500 py-4" data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"}>
         <div className="container mx-auto px-5 md:px-40  text-white font-semibold">
             <div className="flex justify-between">
                 <div className="flex space-x-5">

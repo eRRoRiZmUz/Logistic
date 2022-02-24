@@ -13,13 +13,25 @@ import WhatWeDo from '../components/WhatWeDo'
 import OurSkills from '../components/OurSkills'
 import OurProject from '../components/OurProject'
 import Match from '../components/Match'
+import {BiUpArrowAlt} from "react-icons/bi"
+import sal from "sal.js"
+import React from 'react'
 const Image = [{cover:"/img/image 1.jpg"},
 {cover:"/img/image 2.jpg"},
 {cover:"/img/image 3.jpg"},]
 const Home: NextPage = () => {
-  
+  const [scroll, setScroll] = React.useState(false);
+  React.useEffect(() => {
+    
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () =>
+        setScroll(window.pageYOffset > 200)
+      );
+    }
+    sal()
+  }, []);
   return (
-    <div>
+    <div className='reltive'>
       <Layout>
       <div id='0'>
         <CustomSlider items={Image} />
@@ -49,6 +61,11 @@ const Home: NextPage = () => {
       </div>
       <div className='container mx-auto px-10 md:px-40 '>
       <FAQ />
+      </div>
+      <div data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"fade-in"} className={`${scroll ? "fixed" : "hidden"} right-10 bottom-10 rounded-full bg-red-500 p-2`}>
+          <a href='#0' className='text-4xl text-white'>
+            <BiUpArrowAlt/>
+          </a>
       </div>
       </Layout>
   </ div>

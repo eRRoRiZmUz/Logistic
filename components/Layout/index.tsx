@@ -11,6 +11,7 @@ interface IProps {
 const Layout = (props: IProps) => {
   const [scroll, setScroll] = React.useState(false);
   React.useEffect(() => {
+
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
         setScroll(window.pageYOffset > 200)

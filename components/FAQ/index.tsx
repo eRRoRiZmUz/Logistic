@@ -26,7 +26,7 @@ const FAQ = () => {
   return (
     <div className="py-20 space-y-10">
       <div>
-      <div className="space-y-2.5 text-center">
+      <div className="space-y-2.5 text-center" data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"slide-down"}>
                         <div className=" font-semibold text-lg md:text-xl lg:text-2xl ">Our Faq</div>
                         <div className="flex justify-center space-x-1">
                             <div className="border-2 border-red-500 rounded-full w-1" />

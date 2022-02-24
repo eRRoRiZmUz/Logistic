@@ -63,17 +63,15 @@ const CustomSlider = ({ items }: IProps) => {
     ],
   };
   return (
-    <div className="overflow-hidden relative">
+    <div className="relative">
       <Slider {...settings} ref={sliderRef}>
         {[...items]
-          // .filter((_, i) => i === 0)
+
           .map((item, i) => (
             <div className={`outline-none w-full`} key={`item-${i}`}>
               <section
-                className={`p-20 overflow-hidden transform transition-all h-72 lg:h-slider bg-white bg-cover bg-center text-white w-full flex items-center`}
-                // style={{
-                //   backgroundImage: `url('${item?.cover}')`,
-                // }}
+                className={`p-20 overflow-hidden transform transition-all h-screen lg:h-slider bg-white bg-cover bg-center text-white w-full flex items-center`}
+                
               >
                 {item?.cover && (
                   <Image
@@ -89,69 +87,17 @@ const CustomSlider = ({ items }: IProps) => {
                   />
                 )}
 
-                {/* <div className="absolute top-0 left-0 right-0 bottom-0 bg-slider" />
 
-                <div className="container mx-auto py-5 px-4 sm:px-6 lg:px-8 relative">
-                  <h3 className="hidden font-semibold flex space-x-2 text-md lg:text-2xl mb-5">
-                    {item?.types?.map((type) => (
-                      <span
-                        className="flex space-x-2 items-center"
-                        key={`${type._id}`}
-                      >
-                        {type?.iconUrl && (
-                          <img src={type?.iconUrl} className="w-4 h-4" />
-                        )}{" "}
-                        <span>{type?.ui?.name}</span>
-                      </span>
-                    ))}
-                  </h3>
-                  <h1 className="w-full lg:w-8/12 font-bold text-xl lg:text-5xl mb-5">
-                    {item?.ui?.name}
-                  </h1>
-                  <p className="w-full text-sm lg:text-base lg:w-1/2 mb-5">
-                    {item?.ui?.description}
-                  </p>
-                  <Link href={`/events/${item?._id}`}>
-                    <a className="border px-10 py-3 rounded inline-block hover:opacity-80 active:opacity-60">
-                      Дэлгэрэнгүй
-                    </a>
-                  </Link>
-                </div> */}
               </section>
             </div>
           ))}
       </Slider>
-
-      {/* <>
-        <div className="relative z-10">
-          {items?.map((item, i) => (
-            <div className={`outline-none w-full`} key={`item-${i}`}>
-              <section
-                className={`p-20 overflow-hidden transform transition-all h-72 lg:h-slider bg-white bg-cover bg-center text-white w-full flex items-center`}
-                // style={{
-                //   backgroundImage: `url('${item?.cover}')`,
-                // }}
-              >
-                <Image
-                  src={item?.cover}
-                  alt=""
-                  className={`object-cover`}
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="top"
-                  quality={100}
-                  placeholder="blur"
-                  blurDataURL={item?.cover}
-                />
-              </section>
-            </div>
-          ))}
-
-          <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2">
-            <div className="mouse transform scale-0 lg:scale-50"></div>
-          </div>
-        </div>
-      </> */}
+    <div className="absolute bottom-40 md:bottom-20 md:w-2/3">
+      <div className="uppercase px-10 md:px-40  font-bold text-white text-3xl lg:text-4xl"
+      data-sal={"slide-up"} data-sal-delay={"100"} data-sal-easing={"ease"}
+          >
+          YOU TRUSTED LOGISTIC <a className="text-red-500">PARTNER</a> IN WORLDWIDE SMART WAY</div>
+    </div>
     </div>
   );
 };
