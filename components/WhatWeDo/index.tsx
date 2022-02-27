@@ -5,9 +5,9 @@ const WhatWeDo = () =>{
     { title :"Secure & Trust" , icon: <FcGraduationCap/> , text:"It was popularised in the 1960s with the release of Letraset sheets containing ." },]
     return(
         <div className="bg-[#F2F2F2] relative h-full">
-        <div className="px-10 md:px-40 container mx-auto py-10 md:py-20 space-y-10 md:space-y-0 md:flex md:space-x-10">
-        <div className="md:flex md:space-x-10 space-y-10 md:space-y-0">
-            <div className="space-y-5 w-full md:w-2/3 " data-sal="slide-down"
+        <div className="px-10 md:px-32 container mx-auto py-10 md:py-20 space-y-10 md:space-y-0 md:flex md:space-x-10">
+        <div className="md:flex  md:space-x-10 space-y-10 md:space-y-0">
+            <div className="space-y-5  w-full md:w-3/5 " data-sal="slide-down"
                  data-delay="1000"
                  data-sal-duration={1000}>
                 <div className="space-y-1 ">

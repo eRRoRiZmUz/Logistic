@@ -26,11 +26,11 @@ const OurTeam = () =>{
                  data-delay="1000"
                  data-sal-duration={1000} className="text-base md:text-md lg:text-lg">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</div>
             </div>
-            <div data-sal="slide-down"
-                 data-delay="1000"
-                 data-sal-duration={1000} className="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-5">
+            <div  className="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-5">
                 {team.map((item)=>(
-                    <div className="text-center group">
+                    <div className="text-center group" data-sal="slide-down"
+                    data-delay="1000"
+                    data-sal-duration={1000}>
                         <div className="relative">
                         <img className="w-full " src={item.img}/>
                         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 group-hover:block hidden" />

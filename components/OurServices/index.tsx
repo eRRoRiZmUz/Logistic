@@ -9,6 +9,7 @@ const OurServices =() =>{
     const settings = {
         dots: true,
         infinite: true,
+        arrows:false,
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -48,7 +49,7 @@ const OurServices =() =>{
    ] 
     return(
     <div className="bg-[#F2F2F2]">
-    <div className="  space-y-10 py=10 md:py-20 container mx-auto px-10 md:px-40 ">
+    <div className="  space-y-10 py-10 md:py-20 container mx-auto px-10 md:px-40 ">
            <div className="space-y-2.5 text-center px-10 md:px-40 lg:px-60">
                 <div className="space-y-1 " data-sal="slide-down"
                  data-delay="1000"

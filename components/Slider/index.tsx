@@ -92,7 +92,7 @@ const CustomSlider = ({ items }: IProps) => {
             </div>
           ))}
       </Slider>
-    <div className="absolute bottom-40 md:bottom-20 md:w-2/3">
+    <div className="absolute bottom-36 md:bottom-20 md:w-2/3">
       <div className="uppercase px-10 md:px-40  font-bold text-white text-3xl lg:text-4xl"
       data-sal="slide-down"
       data-delay="1000"
