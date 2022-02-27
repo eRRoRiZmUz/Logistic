@@ -30,7 +30,7 @@ const HeaderContact = () => {
                             {item.icon}
                         </a>
                     ))}
-                     <div
+                     {/* <div
                   className="lang text-xl inline-flex space-x-4 text-gray-400 hidden md:block"
                   style={{}}
                   key="t-8"
@@ -55,7 +55,7 @@ const HeaderContact = () => {
                     </select>
                
               
-                </div>
+                </div> */}
 
                 </div>
             </div>
