@@ -12,9 +12,9 @@ const HeaderContact = () => {
     return(<div className="bg-red-500 py-4" data-sal="slide-down"
     data-delay="1000"
     data-sal-duration={1000}>
-        <div className="container mx-auto px-5 md:px-40  text-white font-semibold">
+        <div className="container mx-auto px-2 md:px-40  text-white font-semibold">
             <div className="flex justify-between">
-                <div className="flex space-x-5">
+                <div className="flex space-x-1  md:space-x-5">
                     <div className="flex space-x-2 items-center text-md lg:text-lg">
                         <FiPhoneCall />
                         <div>+451236981</div>
