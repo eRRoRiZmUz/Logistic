@@ -85,7 +85,6 @@ const OurServices =() =>{
                  data-sal-duration={1000} className="text-base md:text-md lg:text-lg">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</div>
             </div>
             <Slider  {...settings}>
-               
                 {item.map((element)=>(
                     <div className=" p-2" data-sal="slide-down"
                  data-delay="1000"

@@ -16,6 +16,7 @@ import Match from '../components/Match'
 import {BiUpArrowAlt} from "react-icons/bi"
 import sal from "sal.js"
 import React from 'react'
+import WhatPeopleAreSay from '../components/WhatPeopleAreSaying'
 const Image = [{cover:"/img/image 1.jpg"},
 {cover:"/img/image 2.jpg"},
 {cover:"/img/image 3.jpg"},]
@@ -62,7 +63,9 @@ const Home: NextPage = () => {
       </div>
       <div className='container mx-auto px-10 md:px-40 '>
       <FAQ />
+     
       </div>
+      <WhatPeopleAreSay />
       <div  className={`${scroll ? "fixed" : "hidden"} right-5 md:right-10 bottom-10 rounded-full bg-[#277ecd] p-2`}>
           <a href='#0' className='text-4xl text-white'>
             <BiUpArrowAlt/>
