@@ -10,7 +10,7 @@ const OurSkills = () =>{
         <div className="lg:flex w-full space-y-10 lg:space-y-0">
             <div data-sal="slide-down"
                  data-delay="1000"
-                 data-sal-duration={1000} className="lg:w-1/2 w-full lgh-full lg:absolute left-0 top-0 ">
+                 data-sal-duration={1000} className="lg:w-1/2 w-full lg:h-full lg:absolute left-0 top-0 ">
                 <img className="h-full object-none w-full" src="/img/skill-1.jpg"/>
             </div>
             <div className="lg:w-1/2"></div>
