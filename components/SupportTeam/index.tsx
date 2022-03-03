@@ -11,7 +11,7 @@ const SupportTeam = () =>{
                  data-sal-duration={1000}>24/7 Support Team</div>
                 <div className="text-2xl md:text-3xl lg:text-4xl font-bold"  data-sal="slislide-down"
                  data-delay="1000"
-                 data-sal-duration={1000}>Quickly Support and Help of our <a className="text-red-500">Logistic</a> Problem</div>
+                 data-sal-duration={1000}>Quickly Support and Help of our <a className="text-[#277ecd]">Logistic</a> Problem</div>
                 <div className="text-md md:text-lg lg:text-xl" data-sal="slide-down"
                  data-delay="1000"
                  data-sal-duration={1000}>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</div>

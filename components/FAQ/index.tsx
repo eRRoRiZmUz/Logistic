@@ -31,8 +31,8 @@ const FAQ = () => {
           data-sal-duration={1000}>
                         <div className=" font-semibold text-lg md:text-xl lg:text-2xl ">Our Faq</div>
                         <div className="flex justify-center space-x-1">
-                            <div className="border-2 border-red-500 rounded-full w-1" />
-                            <div className="border-2 border-red-500 rounded-l-lg w-20" />
+                            <div className="border-2 border-[#277ecd] rounded-full w-1" />
+                            <div className="border-2 border-[#277ecd] rounded-l-lg w-20" />
                         </div>
                     </div>
       </div>

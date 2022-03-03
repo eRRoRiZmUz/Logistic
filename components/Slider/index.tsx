@@ -98,7 +98,7 @@ const CustomSlider = ({ items }: IProps) => {
       data-delay="1000"
       data-sal-duration={1000}
           >
-          YOU TRUSTED LOGISTIC <a className="text-red-500">PARTNER</a> IN WORLDWIDE SMART WAY</div>
+          YOU TRUSTED LOGISTIC <a className="text-[#277ecd]">PARTNER</a> IN WORLDWIDE SMART WAY</div>
     </div>
     </div>
   );

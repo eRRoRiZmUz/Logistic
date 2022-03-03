@@ -16,7 +16,7 @@ return(<div className="bg-[#F2F2F2]">
             <div  data-sal="slide-down"
             data-delay="1000"
             data-sal-duration={1000} className="bg-white p-8 space-y-5 text-left">
-                <div className="text-red-500 text-2xl md:text-4xl">{item.icon}</div>
+                <div className="text-[#277ecd] text-2xl md:text-4xl">{item.icon}</div>
                 <div className=" font-semibold text-xl md:text-2xl">{item.title}</div>
                 <div className=" text-lg md:text-xl">{item.text}</div>
             </div>

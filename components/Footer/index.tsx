@@ -22,35 +22,35 @@ const Footer = () => {
     data-delay="1000"
     data-sal-duration={1000}>
         <div className="container mx-auto px-10 md:px-40  py-10 md:py-20">
-            <div className="md:flex md:space-x-5 space-y-10 md:space-y-0">
+            <div className="lg:flex lg:space-x-5 space-y-10 lg:space-y-0">
                 <div className="md:w-1/3 space-y-5 text-white">
                     <div className="space-y-2.5 ">
                         <div className=" font-semibold text-lg md:text-xl lg:text-2xl">Qabid Logistic</div>
                         <div className="flex space-x-1">
-                            <div className="border-2 border-red-500 rounded-full w-1" />
-                            <div className="border-2 border-red-500 rounded-l-lg w-20" />
+                            <div className="border-2 border-[#277ecd] rounded-full w-1" />
+                            <div className="border-2 border-[#277ecd] rounded-l-lg w-20" />
                         </div>
                     </div>
                     <div className=" text-md md:text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod dolor.</div>
                     <div className=" font-semibold text-lg md:text-xl lg:text-2xl">Follow Us</div>
                     <div className="flex space-x-5">
                         {FooterIcon.map((item)=>(
-                            <a className="bg-red-500  p-2 rounded-full text-white hover:bg-white hover:text-black" href={item.href}>{item.icon}</a>
+                            <a className="bg-[#277ecd]  p-2 rounded-full text-white hover:bg-white hover:text-black" href={item.href}>{item.icon}</a>
                         ))}
                     </div>
                 </div>
-                <div className="md:w-2/3 md:flex space-y-10 md:space-y-0">
+                <div className="lg:w-2/3 lg:flex space-y-10 lg:space-y-0">
                     <div className="w-full">
                     <div className="space-y-5 ">
                     <div className="space-y-2.5 ">
                         <div className=" font-semibold text-lg md:text-xl lg:text-2xl text-white">Quick Links</div>
                         <div className="flex space-x-1">
-                            <div className="border-2 border-red-500 rounded-full w-1" />
-                            <div className="border-2 border-red-500 rounded-l-lg w-20" />
+                            <div className="border-2 border-[#277ecd] rounded-full w-1" />
+                            <div className="border-2 border-[#277ecd] rounded-l-lg w-20" />
                         </div>
                     </div>
                     {FooterContact.map((item)=>(
-                        <a className="text-md md:text-lg lg:text-xl flex space-x-1 items-center text-white hover:text-red-500 hover:underline" href={item.href}>
+                        <a className="text-md md:text-lg lg:text-xl flex space-x-1 items-center text-white hover:text-[#277ecd] hover:underline" href={item.href}>
                             <MdArrowRight />
                             {item.title}</a>
                     ))}
@@ -61,12 +61,12 @@ const Footer = () => {
                     <div className="space-y-2.5 ">
                         <div className=" font-semibold text-lg md:text-xl lg:text-2xl text-white">Quick Links</div>
                         <div className="flex space-x-1">
-                            <div className="border-2 border-red-500 rounded-full w-1" />
-                            <div className="border-2 border-red-500 rounded-l-lg w-20" />
+                            <div className="border-2 border-[#277ecd] rounded-full w-1" />
+                            <div className="border-2 border-[#277ecd] rounded-l-lg w-20" />
                         </div>
                     </div>
                     {FooterContact.map((item)=>(
-                        <a className="text-md md:text-lg lg:text-xl flex space-x-1 items-center text-white hover:text-red-500 hover:underline" href={item.href}>
+                        <a className="text-md md:text-lg lg:text-xl flex space-x-1 items-center text-white hover:text-[#277ecd] hover:underline" href={item.href}>
                             <MdArrowRight />
                             {item.title}</a>
                     ))}
@@ -76,8 +76,8 @@ const Footer = () => {
                     <div className="space-y-2.5 ">
                         <div className=" font-semibold text-lg md:text-xl lg:text-2xl text-white">Contact Info</div>
                         <div className="flex space-x-1">
-                            <div className="border-2 border-red-500 rounded-full w-1" />
-                            <div className="border-2 border-red-500 rounded-l-lg w-20" />
+                            <div className="border-2 border-[#277ecd]rounded-full w-1" />
+                            <div className="border-2 border-[#277ecd] rounded-l-lg w-20" />
                         </div>
                     </div>
                     <div className="text-white text-md md:text-lg lg:text-xl">Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod dolor.</div>

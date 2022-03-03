@@ -33,6 +33,7 @@ const Home: NextPage = () => {
   return (
     <div className='reltive'>
       <Layout>
+    
       <div id='0'>
         <CustomSlider items={Image} />
       </div>
@@ -62,7 +63,7 @@ const Home: NextPage = () => {
       <div className='container mx-auto px-10 md:px-40 '>
       <FAQ />
       </div>
-      <div  className={`${scroll ? "fixed" : "hidden"} right-5 md:right-10 bottom-10 rounded-full bg-red-500 p-2`}>
+      <div  className={`${scroll ? "fixed" : "hidden"} right-5 md:right-10 bottom-10 rounded-full bg-[#277ecd] p-2`}>
           <a href='#0' className='text-4xl text-white'>
             <BiUpArrowAlt/>
           </a>
