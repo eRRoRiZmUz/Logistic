@@ -24,7 +24,7 @@ const WhatPeopleAreSay = () =>{
     
     const [imgIndex,setImgIndex] = useState<any>(0)
     
-    const settings = {
+    const settings: any = {
       infinite:true,
       lazyLoad: true,
       speed: 300,
