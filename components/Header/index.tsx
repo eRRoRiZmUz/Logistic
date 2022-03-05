@@ -37,7 +37,7 @@ const Header = (item:any) => {
           item.scroll ? "fixed bg-white  " : " absolute "
         } top-0 z-50 py-3 w-full hidden md:block md:drop-shadow-xl`}
       >
-   <div className="container mx-auto px-10 md:px-40 z-50 ">
+   <div className="container mx-auto px-10 md:px-20 z-50 ">
        <div className="md:flex md:justify-between items-center">
        <div>
            <img className="w-40" src="/and.png"/>

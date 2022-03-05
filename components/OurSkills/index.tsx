@@ -5,12 +5,12 @@ const OurSkills = () =>{
     { title :"Ocean Freight" , prcent:"[60%]",prw:"w-2/5" , width:"w-3/5" },
     { title :"Air Freight" , prcent:"[75%]",prw:"w-1/4" , width:"w-3/4" },]
     return(
-        <div className="relative h-full">
-        <div className="px-10 md:px-40 container mx-auto py-10 md:py-20 space-y-10 md:space-y-0 md:flex md:space-x-10">
-        <div className="lg:flex w-full space-y-10 lg:space-y-0">
+        <div className="relative h-full bg-[#f8f8f8]">
+        <div className="px-10 md:px-20 container mx-auto py-10 md:py-40 md:flex md:space-x-10">
+        <div className="lg:flex w-full h-full   space-y-10 lg:space-y-0">
             <div data-sal="slide-down"
                  data-delay="1000"
-                 data-sal-duration={1000} className="lg:w-1/2 w-full lg:h-full lg:absolute left-0 top-0 ">
+                 data-sal-duration={1000} className="lg:w-1/2 hidden lg:block w-full lg:h-full lg:absolute left-0 top-0 ">
                 <img className="h-full object-none w-full" src="/img/skill-1.jpg"/>
             </div>
             <div className="lg:w-1/2"></div>

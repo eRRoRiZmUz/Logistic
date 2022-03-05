@@ -66,7 +66,7 @@ const OurServices =() =>{
    ] 
     return(
     <div className="bg-[#F2F2F2]">
-    <div className="  space-y-10 py-10 md:py-20 container mx-auto px-10 md:px-40 ">
+    <div className="  space-y-10 py-10 md:py-20 container mx-auto px-10 md:px-20 ">
            <div className="space-y-2.5 text-center ">
                 <div className="space-y-1 " data-sal="slide-down"
                  data-delay="1000"

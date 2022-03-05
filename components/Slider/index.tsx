@@ -68,7 +68,7 @@ const CustomSlider = ({ items }: IProps) => {
         {[...items]
 
           .map((item, i) => (
-            <div className={`outline-none w-full`} key={`item-${i}`}>
+            <div className={`outline-none w-full relative`} key={`item-${i}`}>
               <section
                 className={`p-20 overflow-hidden transform transition-all h-screen lg:h-slider bg-white bg-cover bg-center text-white w-full flex items-center`}
                 
@@ -89,6 +89,7 @@ const CustomSlider = ({ items }: IProps) => {
 
 
               </section>
+              <div className="absolute top-0 z-40 h-full w-full bg-black opacity-50"/>
             </div>
           ))}
       </Slider>

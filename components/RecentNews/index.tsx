@@ -6,7 +6,7 @@ const RecentNews = () =>{
     { title :"The best Way Logistic get Other company?" , img: "/img/3.jpg" , text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend a massa rhoncus gravida. Nullam in viverra sapien. Nunc bibendum nec lectus et vulputate. Nam." }]
     return(
        <div className="bg-[#F2F2F2]">
-            <div className="py-10 md:py-20 space-y-5 md:space-y-10 container mx-auto px-10 md:px-40">
+            <div className="py-10 md:py-20 space-y-5 md:space-y-10 container mx-auto px-10 md:px-20">
             <div className="space-y-2.5 text-center">
                 <div className="space-y-1 " data-sal="slide-down"
                  data-delay="1000"

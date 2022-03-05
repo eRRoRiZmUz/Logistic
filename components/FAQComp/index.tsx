@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {AiOutlinePlus ,AiOutlineMinus} from "react-icons/ai"
+import {MdOutlineKeyboardArrowDown ,MdKeyboardArrowUp} from "react-icons/md"
 const FAQComp = (item: any) => {
   const [show, setShow] = useState(false);
   return (
@@ -22,11 +22,11 @@ const FAQComp = (item: any) => {
           <div>
             {show ? (
               <div>
-                <AiOutlineMinus />
+                <MdKeyboardArrowUp />
               </div>
             ) : (
               <div>
-                <AiOutlinePlus />
+                <MdOutlineKeyboardArrowDown />
               </div>
             )}
           </div>

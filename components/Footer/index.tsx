@@ -21,7 +21,7 @@ const Footer = () => {
     <div  className="bg-[#282828] " data-sal="slide-down"
     data-delay="1000"
     data-sal-duration={1000}>
-        <div className="container mx-auto px-10 md:px-40  py-10 md:py-20">
+        <div className="container mx-auto px-10 md:px-20  py-10 md:py-20">
             <div className="lg:flex lg:space-x-5 space-y-10 lg:space-y-0">
                 <div className="md:w-1/3 space-y-5 text-white">
                     <div className="space-y-2.5 ">

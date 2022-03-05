@@ -10,7 +10,7 @@ const Service = () =>{
     {icon:<GiCargoShip/>, title:"Sea Freight in City", text:"Lorem ipsum dolor sit amet elit consectetur adipiscing sed eiusmod tempor." },
     {icon:<MdDirectionsBus />, title:"Warehouse Service", text:"Lorem ipsum dolor sit amet elit consectetur adipiscing sed eiusmod tempor." }]
 return(<div className="bg-[#F2F2F2]">
-    <div className="py-10 md:py-20 container mx-auto px-10 md:px-40">
+    <div className="py-10 md:py-20 container mx-auto px-10 md:px-20">
     <div className="space-y-5 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-5">
         {service.map((item)=>(
             <div  data-sal="slide-down"

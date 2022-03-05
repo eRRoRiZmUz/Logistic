@@ -1,5 +1,6 @@
 {
   "name": "project1",
+  "author": "Altanshagai",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,6 +11,7 @@
   "dependencies": {
     "@types/slick-carousel": "^1.6.37",
     "antd": "^4.18.4",
+    "google-map-react": "^2.1.10",
     "moment": "^2.29.1",
     "next": "^11.1.1-canary.7",
     "react": "^17.0.2",
@@ -22,6 +24,7 @@
   "devDependencies": {
     "@swc/cli": "^0.1.55",
     "@swc/core": "^1.2.127",
+    "@types/google-map-react": "^2.1.5",
     "@types/node": "17.0.8",
     "@types/react": "17.0.38",
     "@types/react-slick": "^0.23.8",

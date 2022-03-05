@@ -64,7 +64,7 @@ const WhatPeopleAreSay = () =>{
     
       return (
           <div className="bg-[#F2F2F2]  App py-10 md:py-20">
-        <div className=" container mx-auto px-10 md:px-40  space-y-10">
+        <div className=" container mx-auto px-10 md:px-20  space-y-10">
          <div>
       <div className="space-y-2.5 text-center"  data-sal="slide-down"
           data-delay="1000"

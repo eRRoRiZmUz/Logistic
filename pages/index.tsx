@@ -39,17 +39,17 @@ const Home: NextPage = () => {
         <CustomSlider items={Image} />
       </div>
       <div id='1' ><Service/></div>
-      <div  className='container mx-auto px-10 md:px-40 '>
+      <div  className='container mx-auto px-10 md:px-20 '>
         <AboutUs />
       </div>
      <div > <SupportTeam /></div>
       <div id='2'><OurServices /> </div>
-      <div  className='container mx-auto px-10 md:px-40 '>
+      <div  className='container mx-auto px-10 md:px-20 '>
         <ClientReview />
       </div>  
       <WhatWeDo/>
       <OurSkills />
-      <div className='container mx-auto px-10 md:px-40 '>
+      <div className='container mx-auto px-10 md:px-20 '>
         <div id='3'>
         <OurProject />
         </div>  
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
       <div id='5'>
       <RecentNews />
       </div>
-      <div className='container mx-auto px-10 md:px-40 '>
+      <div className='container mx-auto px-10 md:px-20 '>
       <FAQ />
      
       </div>
