@@ -8,7 +8,7 @@ const AboutUs = () =>{
                  data-sal="slide-down"
                  data-delay="1000"
                  data-sal-duration={1000}>
-                    <div className=" font-semibold text-lg md:text-xl lg:text-2xl " >Recent News</div>
+                    <div className=" font-semibold text-lg md:text-xl lg:text-2xl " >Бидний тухай</div>
                     <div className="flex  space-x-1">
                         <div className="border-2 border-[#277ecd] rounded-full w-1" />
                         <div className="border-2 border-[#277ecd] rounded-l-lg w-20" />
@@ -18,14 +18,16 @@ const AboutUs = () =>{
                  data-sal="slide-down"
                  data-delay="1000"
                  data-sal-duration={1000}
-                >How to <a className="text-[#277ecd]">Logistic</a> Activities Good Solution of Business in the world</div>
+                >Найрсаг хамт олон, найдвартай үйлчилгээ таныг хүлээж байна.</div>
                 <div className="font-semibold text-gray-500 text-md md:text-lg lg:text-xl"  data-sal="slide-down"
           data-delay="1000"
-          data-sal-duration={1000}>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</div>
+          data-sal-duration={1000}>   Бид дэлхийн өнцөг булан бүрээс бүх төрлийн тээврийн хэрэгслэлийг ашиглан овор ихтэй, хүнд жинтэй тээвэрлэхэд хамгийн хэцүү мэргэжилийн ур чадвар, туршлага шаардсан бүх төрлийн ачааг тээвэрлэж чаддагаараа бусдаас ялгарч чаддаг. </div>
                 <div className="text-md md:text-lg lg:text-xl"
                  data-sal="slide-down"
                  data-delay="1000"
-                 data-sal-duration={1000}>Web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their over infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the liking of all.</div>
+                 data-sal-duration={1000}> “Анджин Транс” ХХК нь 2010 онд улс хоорондын тээвэр зуучлалын үйл ажиллагааг эрхлэн явуулах зорилго тавин 100% дотоодын хөрөнгө оруулалттайгаар үүсгэн байгуулагдсан бөгөөд тээвэр зуучлалын үйл ажиллагааг амжилттай явуулж байна. Өнөөдөр тус компани нь тээвэр зуучлалын салбарт олон жил ажилласан туршлагатай мэргэжлийн ажилтнуудаар багаа бүрдүүлсэн бөгөөд ОХУ, Хятад, Япон, Солонгос, Тайланд, АНУ, Австрали, Канад, Герман зэрэг дэлхийн томоохон 50 гаруй оронд байрлах өөрийн агентийн сүлжээг ашиглан төрөл бүрийн ачааг агаар, далай, авто болон төмөр замын тээврийн бүх төрлөөр улс хоорондын тээвэр зуучлалын иж бүрэн үйлчилээг үзүүлж байна.
+
+                 </div>
             </div>
             <div  data-sal="slide-down"
           data-delay="1000"

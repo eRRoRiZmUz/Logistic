@@ -15,13 +15,13 @@ const HeaderContact = () => {
         <div className="container mx-auto px-2 md:px-20  text-white font-semibold">
             <div className="flex justify-between">
                 <div className="flex space-x-1  md:space-x-5">
-                    <div className="flex space-x-2 items-center text-md lg:text-lg">
+                    <a href="tel:+96770117127" className="flex space-x-2 items-center text-md text-white  lg:text-lg">
                         <FiPhoneCall />
-                        <div>+451236981</div>
-                    </div>
+                        <div>+96770117127</div>
+                    </a>
                     <div className="flex space-x-2 items-center text-md lg:text-lg">
                         <AiOutlineMail />
-                        <a href="mailto:someone@yoursite.com?subject=Mail from Our Site" className="text-white">example@gmail.com</a>  
+                        <a href="mailto:Info@andjintrans.com" className="text-white">Info@andjintrans.com</a>  
                     </div>
                 </div>
                 <div className="flex space-x-1 md:space-x-2 items-center text-md lg:text-lg">

@@ -1,9 +1,10 @@
 import React from "react";
 import {ImLocation} from "react-icons/im"
 const OurSkills = () =>{
-    const data =[ { title :"Road Freight" , prcent:"[85%]",prw:"w-2/12" , width:"w-10/12" },
-    { title :"Ocean Freight" , prcent:"[60%]",prw:"w-2/5" , width:"w-3/5" },
-    { title :"Air Freight" , prcent:"[75%]",prw:"w-1/4" , width:"w-3/4" },]
+    const data =[ { title :"Агаарын тээвэр" , prcent:"[85%]",prw:"w-2/12" , width:"w-10/12" },
+    { title :"Далайн тээвэр" , prcent:"[60%]",prw:"w-2/5" , width:"w-3/5" },
+    { title :"Төмөр замын тээвэр" , prcent:"[75%]",prw:"w-1/4" , width:"w-3/4" },
+    { title :"Авто тээвэрлэлтийн үйлчилгээ" , prcent:"[70%]",prw:"w-1/3" , width:"w-3/4" },]
     return(
         <div className="relative h-full bg-[#f8f8f8]">
         <div className="px-10 md:px-20 container mx-auto py-10 md:py-40 md:flex md:space-x-10">

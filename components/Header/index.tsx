@@ -6,10 +6,10 @@ const Header = (item:any) => {
         setOpen(!open);
       };
     const MenuList =[{
-        title:"Home",
+        title:"Нүүр",
         href:"#"
     },{
-        title:"About",
+        title:"Бидний тухай",
         href:"#1"
     },
     {
